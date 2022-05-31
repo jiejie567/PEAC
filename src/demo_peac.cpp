@@ -18,7 +18,7 @@ typedef ahc::PlaneFitter< OrganizedImage3D > PlaneFitter;
 
 int main()
 {
-    cv::Mat depth = cv::imread("../resource/1305031103.027881.png",cv::IMREAD_ANYDEPTH);
+    cv::Mat depth = cv::imread("../resource/frame-000000.depth.png",cv::IMREAD_ANYDEPTH);
     const float f = 525;
     const float cx = 319.5;
     const float cy = 239.5;
